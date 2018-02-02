@@ -1,135 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nicolas Hacala</title>
 
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="portfolio">
-    <meta name="author" content="Kobal">
-
-    <title>Kobal's portfolio</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-
-    <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">My Portfolio</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#">Nicolas</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
-    <!-- Intro Header -->
-    <header class="masthead">
-      <div class="intro-body">
-        <div class="container">
+</header>
+<section class="container-fluid intro">
+  <div class="container col-xl-4 offset-xl-4 mt-5 intro_box">
+    <h1>Nicolas Hacala</h1>
+    <h3>Junior Web Developer</h3>
+    <em>Learning coding languages since 2017</em>
+  </div>
+</section>
+<section class="container-fluid project" id="projects">
+  <div class="row">
+    <h1 class="container-fluid section_title">My projects</h1>
+  </div>
+  <div class="row">
+    <ul class="nav nav-tabs mt-5 justify-content-center container-fluid" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="frontEnd-tab" data-toggle="tab" href="#frontEnd" role="tab" aria-controls="front-end" aria-selected="true">Front-end</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="backEnd-tab" data-toggle="tab" href="#backEnd" role="tab" aria-controls="back-end" aria-selected="false">Back-end</a>
+        </li>
+      </ul>
+      </div>
+      <div class="tab-content" id="myTabContent">
+        <div class="container-fluid tab-pane fade show active mt-5" id="frontEnd" role="tabpanel" aria-labelledby="frontEnd-tab">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">Nicolas Hacala</h1>
-              <p class="intro-text">Welcome to my portfolio. Here you will find some projects I have been working on. Have a nice visit.</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>
+            <figure class="figure col-xl-3">
+              <a href="https://ja-r.github.io/frontend-AllezCine/">
+                <img src="img/allezcine.png" class="figure-img img-fluid rounded" alt="allezcine preview">
               </a>
-            </div>
-          </div>
+              <figcaption class="figure-caption text-center">A 3 pages project supposed to end our chapter about the front-end. Therefore we had to use HTML, CSS and JavaScript.</figcaption>
+            </figure>
+            <figure class="figure  col-xl-3">
+              <a href="https://nicolashacala.github.io/piou-piou/">
+              <img src="img/piou-piou.png" class="figure-img img-fluid rounded" alt="piou-piou preview">
+              </a>
+              <figcaption class="figure-caption text-center">A Javascript focused project via the HTML5 Canvas. A simple mini-shooter game. I also took the opportunity to have a first look at Firebase.</figcaption>
+            </figure>
+            <figure class="figure  col-xl-3">
+              <a href="https://nicolashacala.github.io/restaurant-css-framework/">
+              <img src="img/kobalchicken.png" class="figure-img img-fluid rounded" alt="kobalchicken preview">
+              </a>
+              <figcaption class="figure-caption text-center">With this project I aimed to improve my Bootstrap skills and to learn how to use Sass.</figcaption>
+            </figure>
+            <figure class="figure  col-xl-3">
+              <a href="https://nicolashacala.github.io/interview-webdev/">
+              <img src="img/webdev.png" class="figure-img img-fluid rounded" alt="webdev preview">
+              </a>
+              <figcaption class="figure-caption text-center">An HTML&CSS only project.</figcaption>
+            </figure>
+          </div>  
+        </div>
+        <div class="container tab-pane fade" id="backEnd" role="tabpanel" aria-labelledby="backEnd-tab">
+          <h1>Coming Soon...</h1>
         </div>
       </div>
-    </header>
+</section>
+<section class="container-fluid contact" id="contact">
+  <div class="row">
+    <h1 class="container-fluid section_title">Contact</h1>
+  </div>
+  <div class="container col-xl-4 offset-xl-4 mt-5 contact_box">
+  <h1>Coming Soon...</h1>
+  </div>
+</section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Projects</h2>
-            <figure>
-              <h3>Piou-Piou</h3>
-              <a href="https://nicolashacala.github.io/piou-piou/"><img src="img/piou-piou.png" alt="Piou-Piou preview"></a>
-              <figcaption>A JavaScript oriented project aiming to improve my JS skills.</figcaption>
-            </figure>
-            <figure>
-              <h3>Kobal Fried Chicken</h3>
-              <a href="https://nicolashacala.github.io/restaurant-css-framework/"><img src="img/kobalchicken.png" alt="Kobal Chicken preview"></a>
-              <figcaption>The goal of this project was simply to demonstarte my ability to work with a framework like Bootstrap.</figcaption>
-            </figure>
-            <figure>
-              <h3>Interview Web-Dev</h3>
-              <a href="https://nicolashacala.github.io/interview-webdev/"><img src="img/webdev.png" alt="Interview Web Developer preview"></a>
-              <figcaption>HTML&CSS only project.</figcaption>
-            </figure>
-            <figure>
-              <h3>Aaron Swartz</h3>
-              <a href="https://nicolashacala.github.io/aaron-swartz/"><img src="img/aaron.png" alt="IAaron Swartz preview"></a>
-              <figcaption>HTML&CSS only project.</figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact</h2>
-            <p>Thank you for your interest and please feel free to contact me if you would like to learn more about me.</p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/nicolas-hacala-430608152" class="btn btn-default btn-lg">
-                  <i class="fa fa-linkedin fa-fw"></i>
-                  <span class="network-name">LinkedIn</span>
-                </a>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; Kobal's portfolio 2018</p>
-      </div>
-    </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom script -->
-    <script src="js/grayscale.min.js"></script>
-
-  </body>
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>

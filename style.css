@@ -1,0 +1,68 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+header nav a{
+    text-decoration: none;
+    color: #474747;
+}
+section{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    height: 100%;
+}
+.intro{
+    background-image: url('img/bg-arch.jpg');
+    opacity: 0.7;
+}
+.intro .intro_box{
+    text-align: center;
+}
+.project{
+    background-color: #1d1d1d;
+}
+.project .figure-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid #474747;
+}
+.project ul.nav{
+    border-bottom: 1px solid #000000;
+}
+.project a.nav-link, .project a.nav-link:hover, .project a.nav-link:visited{
+    text-decoration: none;
+    background-color: #474747;
+    color: #1d1d1d;
+}
+.project a.nav-link.active{
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+}
+.project a img:hover{
+    border: 1px solid #ffffff;
+    box-shadow: 0px 2px 5px #ffffff;
+}
+.section_title{
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1818;
+    color: #ffffff;
+    margin-bottom: 0;
+    height: 100px;
+    border-top: 10px solid #000000;
+    border-bottom: 10px solid #000000;
+}
+.project ul.nav{
+    background-color: #1a1818;
+}
+.contact{
+    background-image: url('img/bg-contact.jpeg');
+}
+.contact_box{
+    text-align: center;
+}
