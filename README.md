@@ -6,6 +6,10 @@ Below are the links of the repositories featured in the portfolio:
 
 ## Back-end
 
+[Mean Auth App - Repo](https://github.com/nicolashacala/MEANAuthApp)
+
+[MEAN Auth App - On Heroku](https://peaceful-earth-72565.herokuapp.com/ "MEAN Auth App")
+
 [Chat - Repo](https://github.com/nicolashacala/chat-node)
 
 [Chat - On Heroku](https://chat-node-kobal.herokuapp.com/ "Chat Node.js")
